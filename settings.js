@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 //👉Put Your Session Id👈 කියන එක කපලා අයින් කරලා ඔයාගේ Session id එක දාන්න.
 
-SESSION_ID: process.env.SESSION_ID || "Put Your Session Id",
+SESSION_ID: process.env.SESSION_ID || "LAKA-MD=ZoojCLqD#AfLwhI5JqsxToHn_Lj_6H2KHQ8LrenXtuGB-tGNqtsI",
 
 
 //=================================================
@@ -15,7 +15,7 @@ SESSION_ID: process.env.SESSION_ID || "Put Your Session Id",
 //නැත්තම් bot deploy කරහම .settings comade එක use කරලත් වෙනස් කරගන්න පුලුවන්..🎊
 
 PREFIX: process.env.PREFIX || '.' ,
-MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
+MODE: process.env.MODE === undefined ?"private" : process.env.MODE,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
 AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "false" : process.env.AUTO_REPLY,
 AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "false" : process.env.AUTO_STICKER,
@@ -36,5 +36,5 @@ ANTI_CALL: process.env.ANTI_CALL === undefined ? "false" : process.env.ANTI_CALL
 ALWAYS_TYPING: process.env.ALWAYS_TYPING === undefined ? "false" : process.env.ALWAYS_TYPING,
 ANTI_DELETE : process.env.ANTI_DELETE === undefined ? 'true' : process.env.ANTI_DELETE,
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39",
-DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '94778537233' : process.env.DELETEMSGSENDTO
 };
